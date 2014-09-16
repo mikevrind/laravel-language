@@ -2,17 +2,26 @@
 
 After a while I always ask myself how many duplicate translations I have made in the course of a project.
 That's why I created this package. This package scans the translations of a specific language and checks if there are any duplications within the same language.
-If it finds any duplicates it will notify you about the first occurrence of the translation and where the duplicates are located.
-
-This just is a very early release because I wanted to get the basic code done for some testing.
-
+If it finds any duplicates, it will notify you about the first occurrence of the translation and where the duplicates are located.
 
 ## Installation
 
 Require this package in your composer.json and run composer update:
 
-    "mikevrind/laravel-language": "dev-master"
+    "mike-vrind/laravel-language": "dev-master"
 
 After updating composer, add the ServiceProvider to the providers array in app/config/app.php
 
     'MikeVrind\LaravelLanguage\LaravelLanguageServiceProvider',
+
+When the ServiceProvider has been added, you should be able to run a new artisan command _'language:doubles'_.
+
+    php artisan language:doubles
+
+## Setting the language
+By default, this command will scan the language that has been set as your default in app.locale.
+You are able to scan any other language by setting the language option.
+
+
+    php artisan language:doubles --language=nl
+
