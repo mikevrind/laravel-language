@@ -1,5 +1,5 @@
 ## Laravel Language
-[![Packagist License](http://img.shields.io/packagist/l/mike-vrind/laravel-language.png)](http://choosealicense.com/licenses/mit/)
+[![License](https://poser.pugx.org/mike-vrind/laravel-language/license.svg)](https://packagist.org/packages/mike-vrind/laravel-language)
 [![Latest Stable Version](https://poser.pugx.org/mike-vrind/laravel-language/v/stable.svg)](https://packagist.org/packages/mike-vrind/laravel-language)
 [![Total Downloads](https://poser.pugx.org/mike-vrind/laravel-language/downloads.svg)](https://packagist.org/packages/mike-vrind/laravel-language)
 
