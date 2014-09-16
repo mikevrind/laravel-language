@@ -1,6 +1,7 @@
 {
     "name": "mike-vrind/laravel-language",
     "description": "Validate the usage of your translation",
+    "license": "MIT",
     "authors": [
         {
             "name": "Mike de Vrind",
