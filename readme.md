@@ -1,4 +1,7 @@
 ## Laravel Language
+[![Packagist License](http://img.shields.io/packagist/l/mike-vrind/laravel-language.png)](http://choosealicense.com/licenses/mit/)
+[![Latest Stable Version](https://poser.pugx.org/mike-vrind/laravel-language/v/stable.svg)](https://packagist.org/packages/mike-vrind/laravel-language)
+[![Total Downloads](https://poser.pugx.org/mike-vrind/laravel-language/downloads.svg)](https://packagist.org/packages/mike-vrind/laravel-language)
 
 After a while I always ask myself how many duplicate translations I have made in the course of a project.
 That's why I created this package. This package scans the translations of a specific language and checks if there are any duplications within the same language.
