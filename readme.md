@@ -18,6 +18,7 @@ After updating composer, add the ServiceProvider to the providers array in app/c
     'MikeVrind\LaravelLanguage\LaravelLanguageServiceProvider',
 
 When the ServiceProvider has been added, you should be able to run a new artisan command _'language:doubles'_.
+This command will scan your translations and provides feedback about any duplicates.
 
     php artisan language:doubles
 
